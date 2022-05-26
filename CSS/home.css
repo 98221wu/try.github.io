@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+
+h1{
+    /* center */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    font-size:80px;
+    color:rgb(103, 237, 255);
+
+    z-index:1;
+}
+
+.back{
+    /* full screen */
+    position:fixed;
+    left:0;
+    top:0;
+    min-width:100%;
+    min-height:100%;
+}
+
+#press{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    font-size:30px;
+    color:rgb(255, 103, 230);
+
+    z-index:1;
+}

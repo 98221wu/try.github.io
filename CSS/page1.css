@@ -1,0 +1,31 @@
+.imgfull{
+    position:fixed;
+    left:0;
+    top:0;
+    min-width:100%;
+    min-height:100%;
+    opacity:0.5;
+}
+
+h1{
+    position:relative;
+    margin:20px;
+    font-size:40px;
+    z-index:1;
+}
+
+h2{
+    position:relative;
+    margin:20px;
+    font-size:20px;
+    z-index:1;
+}
+
+
+#ans{
+    position:relative;
+    margin:20px;
+    font-size:20px;
+    color:rgb(142, 77, 13);
+    z-index:1;
+}
